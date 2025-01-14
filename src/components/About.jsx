@@ -37,7 +37,7 @@ const DownloadCVButton = () => {
   return (
     <div className="flex flex-row justify-center items-center mt-4 h-auto md:w-screen"> 
       <a
-        href="src/assets/KingshukHazraResume.pdf" // Path to your CV file
+        href="../assets/KingshukHazraResume.pdf" // Path to your CV file
         download="Kingshuk_Hazra_CV.pdf" // Name of the downloaded file
         /*className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 md:mr-72"*/
       >
