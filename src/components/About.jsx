@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { textVariant,fadeIn } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import KingshukHazraResume from '../assets/KingshukHazraResume.pdf';
 // import { scale } from 'maath/dist/declarations/src/vector3';
 //import { scale } from 'maath/dist/declarations/src/vector2';
 
@@ -37,7 +38,7 @@ const DownloadCVButton = () => {
   return (
     <div className="flex flex-row justify-center items-center mt-4 h-auto md:w-screen"> 
       <a
-        href="../assets/KingshukHazraResume.pdf" // Path to your CV file
+        href={KingshukHazraResume} // Path to your CV file
         download="Kingshuk_Hazra_CV.pdf" // Name of the downloaded file
         /*className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 md:mr-72"*/
       >
