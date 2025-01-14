@@ -26,7 +26,20 @@ import {
     threejs,
   } from "../assets";
   import threatprism from '../assets/company/threatprism.png';
-  
+  import ngoeureka from '../assets/company/ngoeureka.jpg';
+  import hittimes from '../assets/company/hittimes.png';
+  import flutter from '../assets/tech/flutter.png';
+  import nextjs from '../assets/tech/nextjs.png';
+  import python from '../assets/tech/python.png';
+  import java from '../assets/tech/java.png';
+  import blinkitclone from '../assets/blinkitclone.jpg';
+  import times from '../assets/times.png';
+  import recruitment from '../assets/recruitment.png';
+  import criceurekaapp from '../assets/criceurekaapp.jpg';
+
+
+
+
   export const navLinks = [
     {
       id: "about",
@@ -80,11 +93,11 @@ import {
     },
     {
       name: "Flutter",
-      icon: 'src/assets/tech/flutter.png',
+      icon: flutter,
     },
     {
       name: "Next JS",
-      icon: 'src/assets/tech/nextjs.png',
+      icon: nextjs,
     },
     {
       name: "Tailwind CSS",
@@ -100,7 +113,7 @@ import {
     },
     {
       name: "Java",
-      icon: 'src/assets/tech/java.png',
+      icon: java,
     },
     {
       name: "git",
@@ -108,7 +121,7 @@ import {
     },
     {
       name: "python",
-      icon: 'src/assets/tech/python.png',
+      icon: python,
     },
   ];
   
@@ -129,7 +142,7 @@ import {
     {
       title: "Flutter & Next.js Developer",
       company_name: "NGO Eureka",
-      icon: 'src/assets/company/ngoeureka.jpg',
+      icon: ngoeureka,
       iconBg: "white",
       date: "july 2024 - Dec 2024",
       points: [
@@ -142,7 +155,7 @@ import {
     {
       title: "Full stack Web/App Developer",
       company_name: "The HIT Times",
-      icon: 'src/assets/company/hittimes.png',
+      icon: hittimes,
       iconBg: "black",
       date: "Jan 2023 - Present",
       points: [
@@ -204,7 +217,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: 'src/assets/times.png',
+      image: times,
       source_code_link: "https://github.com/",
     },
     {
@@ -246,7 +259,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: 'src/assets/recruitment.png',
+      image: recruitment,
       source_code_link: "https://github.com/",
     },
   ];
@@ -269,7 +282,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: 'src/assets/criceurekaapp.jpg',
+      image: criceurekaapp,
       source_code_link: "https://github.com/",
     },
     {
@@ -290,7 +303,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: 'src/assets/blinkitclone.jpg',
+      image: blinkitclone,
       source_code_link: "https://github.com/",
     },
   ];
