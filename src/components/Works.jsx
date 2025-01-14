@@ -9,7 +9,7 @@ import { fadeIn,textVariant } from '../utils/motion';
 // import { scale } from 'maath/dist/declarations/src/vector2';
 
 
-const ProjectCard =(index,description,name,tags,image,source_code_link)=>{
+const ProjectCard =({index,description,name,tags,image, source_code_link})=>{
   return(
     <motion.div variants={fadeIn('up','spring',index*0.5,0.75)}>
       <Tilt
@@ -18,7 +18,7 @@ const ProjectCard =(index,description,name,tags,image,source_code_link)=>{
           scale:1,
           speed:450
         }}
-        className='bg-tertiary p-5 rounded-2xl xs:w-[200px] w-full'
+        className='bg-tertiary p-5 rounded-2xl xs:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img 
@@ -31,12 +31,25 @@ const ProjectCard =(index,description,name,tags,image,source_code_link)=>{
               onClick={()=>window.open(source_code_link,'blank')}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-              <img src={github} alt='github' className='w-8 h-8'/>
+              <img src={github} alt='github' className='w-8 h-8 object-contain'/>
             </div>
 
           </div>
         </div>
-
+        <div className='mt-5'>
+          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+        </div>
+        <div className='mt-4 flex flex-wrap gap-2'>
+          {tags.map((tag)=>(
+            <span 
+              key={tag.name}
+              className={`text-[14px] font-semibold rounded-full px-1 py-1 ${tag.color}`}
+            >
+              #{tag.name}
+            </span>
+          ))}
+        </div>
       </Tilt>
     </motion.div>
   )
@@ -66,14 +79,14 @@ const Works = () => {
            work with different technologies, and manage projects effectively.
         </motion.p>
       </div>
-
+    
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project,index)=>(
-        <ProjectCard
-          key={`project-${index}`}
-          index={index}
-          {...project}
-        />
+          <ProjectCard
+            key={`project-${index}`}
+            index={index}
+            {...project}
+          />
         ))}
 
       </div>
