@@ -25,6 +25,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+  import threatprism from '../assets/company/threatprism.png';
   
   export const navLinks = [
     {
@@ -115,7 +116,7 @@ import {
     {
       title: "Android Development Intern",
       company_name: "Threat Prism",
-      icon: 'src/assets/company/threatprism.png',
+      icon: threatprism,
       iconBg: "black",
       date: "Jan 2023 - Feb 2023",
       points: [
