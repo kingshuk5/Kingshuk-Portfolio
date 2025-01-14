@@ -8,9 +8,6 @@ import emailjs from '@emailjs/browser';
 import {EarthCanvas} from './canvas';
 
 
-//template_6xusxci is the template id of the emailjs
-//service_dep6xhc is the service id of the emailjs
-//tRdDGbmVTdNvVa5wC is the user id of the emailjs
 const Contact = () => {
   const fromRef = useRef();
   const [form,setForm] = useState({
@@ -33,8 +30,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_dep6xhc',
-      'template_6xusxci',
+      Email_Service_key,
+      Email_Template_key,
       {
         from_name:form.name,
         to_name:'Kingshuk Hazra',
@@ -42,7 +39,7 @@ const Contact = () => {
         to_email:'kingshukhazra5@gmail.com',
         message:form.message,
       },
-      'tRdDGbmVTdNvVa5wC'
+      User_Id_Emailjs
     ).then(()=>{
       setLoading(false);
       alert('Thank you for your message. I will get back to you soon.');
