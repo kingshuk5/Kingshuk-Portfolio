@@ -30,8 +30,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      Email_Service_key,
-      Email_Template_key,
+      'service_dep6xhc',  //Email_Service_key,
+      'template_6xusxci', //Email_Template_key,
       {
         from_name:form.name,
         to_name:'Kingshuk Hazra',
@@ -39,7 +39,7 @@ const Contact = () => {
         to_email:'kingshukhazra5@gmail.com',
         message:form.message,
       },
-      User_Id_Emailjs
+      'tRdDGbmVTdNvVa5wC'//User_Id_Emailjs
     ).then(()=>{
       setLoading(false);
       alert('Thank you for your message. I will get back to you soon.');

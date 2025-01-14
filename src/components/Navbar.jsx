@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {styles} from '../styles';
 import { navLinks } from '../constants';
 import { logo,menu,close } from '../assets';
+import myphoto1 from '../assets/myphoto1.jpg'
 
 const Navbar = () => {
   const [active ,setActive]= useState ('');
@@ -22,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <img  
-            src="src/assets/my-photo1.jpg"
+            src={myphoto1}
             alt='my-photo'
             className='w-9 h-9 object-contain'
           />
