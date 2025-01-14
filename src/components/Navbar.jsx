@@ -22,8 +22,8 @@ const Navbar = () => {
           }}
         >
           <img  
-            src={logo}
-            alt='logo'
+            src="src/assets/my-photo1.jpg"
+            alt='my-photo'
             className='w-9 h-9 object-contain'
           />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>

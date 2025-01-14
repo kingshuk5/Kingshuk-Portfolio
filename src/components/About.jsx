@@ -33,6 +33,33 @@ const ServiceCard =({index,title,icon})=>{
   )
 }
 
+const DownloadCVButton = () => {
+  return (
+    <div className="flex flex-row justify-center items-center mt-4 h-auto md:w-screen"> 
+      <a
+        href="src/assets/KingshukHazraResume.pdf" // Path to your CV file
+        download="Kingshuk_Hazra_CV.pdf" // Name of the downloaded file
+        /*className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 md:mr-72"*/
+      >
+        <button
+          class="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/50 border border-white/20 md:mr-72"
+        >
+            <span class="text-lg font-light text-white ">
+            Download CV
+            </span>
+            <div
+              class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]"
+            >
+              <div class="relative h-full w-10 bg-white/20"></div>
+            </div>
+        </button>
+
+      </a>
+    </div>
+  );
+};
+
+
 const About = () => {
   return (
     <>
@@ -50,7 +77,7 @@ const About = () => {
         variants={fadeIn('','',0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a passionate Software Developer with hands-on experience in building 
+        I am Kingshuk Hazra , a passionate Software Developer with hands-on experience in building 
         responsive and user-friendly applications using Flutter, Firebase, and 
         Node.js. I’ve developed features like live cricket scores and dynamic web pages
          for various projects, showcasing my ability to combine technical skills with 
@@ -102,6 +129,8 @@ const About = () => {
             </div>
           </aside>
          </div>
+         <DownloadCVButton/>
+         
       </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-10'>

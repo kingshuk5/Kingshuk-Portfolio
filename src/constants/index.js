@@ -66,10 +66,6 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -82,8 +78,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Flutter",
+      icon: 'src/assets/tech/flutter.png',
+    },
+    {
+      name: "Next JS",
+      icon: 'src/assets/tech/nextjs.png',
     },
     {
       name: "Tailwind CSS",
@@ -98,74 +98,57 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Java",
+      icon: 'src/assets/tech/java.png',
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "python",
+      icon: 'src/assets/tech/python.png',
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Android Development Intern",
+      company_name: "Threat Prism",
+      icon: 'src/assets/company/threatprism.png',
+      iconBg: "black",
+      date: "Jan 2023 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining Android applications using Kotlin,Xml and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created application based on the requirement of the company.",
+        "Participating in real-time api integration and providing feedback to users according to their need.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Flutter & Next.js Developer",
+      company_name: "NGO Eureka",
+      icon: 'src/assets/company/ngoeureka.jpg',
+      iconBg: "white",
+      date: "july 2024 - Dec 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed an interactive Post section in a Flutter application, divided into five distinct categories to enhance user engagement.",
+        "Implemented a Live Cricket Score feature with API integration for live and past matches, seamlessly managed through an admin portal.",
+        "Integrated Email Authentication and Razorpay Payment Gateway for secure user access and smooth payment processing.",
+        "Built an Admin Portal using Next.js and Tailwind CSS to manage the application, enabling CRUD operations for Posts, Live Matches, and Past Matches, as well as an interactive user management section displaying all registered users.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      title: "Full stack Web/App Developer",
+      company_name: "The HIT Times",
+      icon: 'src/assets/company/hittimes.png',
+      iconBg: "black",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining Android applications using Flutter, MongoDB, Node.js and related technologies to deliver robust and scalable solutions.",
+        "Collaborated with a team to design and build an interactive website along with an admin portal for the Club, leveraging Next.js,MongoDB,React.js and Tailwind CSS.",
+        "Created a comprehensive user registration form with seven sections and over 150 fields, enabling seamless registration for events and workshops. This system has successfully handled registrations for over 700 users, with real-time data stored in CSV format.",
+        "Working closely with cross-functional teams—including designers, developers, and other team members—to produce high-quality content for the college's official E-Media and Print-Media Club, The HIT Times.",
       ],
     },
   ];
@@ -173,31 +156,56 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "I thought it was impossible to make a website as beautiful as our product, but He proved me wrong.",
+      name: "Shawank Srivastava",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "Threat Prism",
+      image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a flutter developer who truly cares about their clients' success like He does.",
       name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      designation: "CTO",
+      company: "The Good Game Theory",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After He optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Upendra Navada",
+      designation: "COO",
+      company: "1Stop",
+      image: "https://randomuser.me/api/portraits/men/6.jpg",
     },
   ];
   
   const projects = [
+    {
+      name: "The HIT Times Website",
+      description:
+        "www.thehittimes.com maintains an active presence along with other social media platforms to reach a broader audience and keep the community informed about the latest happenings and publications ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: 'src/assets/times.png',
+      source_code_link: "https://github.com/",
+    },
     {
       name: "Car Rent",
       description:
@@ -212,7 +220,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "next.js",
           color: "pink-text-gradient",
         },
       ],
@@ -220,47 +228,70 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Recruitment Portal",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This recruitment portal features a user registration form divided into seven sections with over 150 fields, streamlining the registration process. It has successfully managed registrations for over 700 user.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: 'src/assets/recruitment.png',
+      source_code_link: "https://github.com/",
+    },
+  ];
+  const Androidprojects = [
+    {
+      name: "NGO Eureka App",
+      description:
+        "A Flutter app with a Post section, Live Cricket Score feature, Email Authentication, and Razorpay integration. It also has a admin portal for managing posts, matches, and users.",
+      tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: 'src/assets/criceurekaapp.jpg',
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Blinkit Clone",
+      description:
+        "A Blinkit clone app using Flutter , Node.js , and MongoDB. Features include product browsing, cart management, secure user authentication and seamless control for inventory and orders.",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: 'src/assets/blinkitclone.jpg',
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, Androidprojects };
