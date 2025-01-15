@@ -6,6 +6,7 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import emailjs from '@emailjs/browser';
 import {EarthCanvas} from './canvas';
+import.meta.env;
 
 
 const Contact = () => {
