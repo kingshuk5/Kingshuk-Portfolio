@@ -4,7 +4,7 @@ import { About,Contact,Experience,Feedbacks,Hero,Navbar,Tech,Works,StarsCanvas} 
 
 const App = () => {
   return (
-    console.log('Environment Variables:', import.meta.env),
+     import.meta.env,
 
     <BrowserRouter>
       <div className="relative z-0 bg-primary overflow-x-hidden">

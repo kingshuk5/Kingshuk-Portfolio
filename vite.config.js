@@ -11,4 +11,4 @@ export default defineConfig({
   define: {
     'process.env': process.env, // Optional: If you're using legacy code relying on `process.env`
   },
-})
+})  
