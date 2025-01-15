@@ -31,8 +31,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      VITE_EMAIL_SERVICE_KEY,
-      VITE_EMAIL_TEMPLATE_KEY,
+      process.env.VITE_EMAIL_SERVICE_KEY,
+      process.env.VITE_EMAIL_TEMPLATE_KEY,
       {
         from_name:form.name,
         to_name:'Kingshuk Hazra',
@@ -40,7 +40,7 @@ const Contact = () => {
         to_email:'kingshukhazra5@gmail.com',
         message:form.message,
       },
-      VITE_USER_ID_EMAILJS
+      process.env.VITE_USER_ID_EMAILJS
     ).then(()=>{
       setLoading(false);
       alert('Thank you for your message. I will get back to you soon.');
