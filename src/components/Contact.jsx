@@ -30,7 +30,7 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      VITE_VERCEL_EMAIL_SERVICE_KEY,
+      VITE_EMAIL_SERVICE_KEY,
       VITE_EMAIL_TEMPLATE_KEY,
       {
         from_name:form.name,
