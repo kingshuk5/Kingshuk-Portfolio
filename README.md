@@ -1,119 +1,63 @@
-Kingshuk Portfolio
+Kingshuk Hazra's Portfolio
+Welcome to my personal portfolio! This is a showcase of my skills, projects, and professional journey. Visit the live site here: kingshuk-hazra-portfolio.vercel.app
 
-Welcome to the source code repository for Kingshuk's Portfolio, a modern personal portfolio website deployed at kingshuk-portfolio-kappa.vercel.app.
+🚀 About Me
+I am a passionate full-stack developer with expertise in Android and web application development. I love building innovative solutions and exploring new technologies to solve real-world problems.
 
-Table of Contents
+🌟 Features
+Responsive Design: Fully optimized for all devices—desktop, tablet, and mobile.
+Projects Section: A curated list of my top projects, detailing technologies used and live links where applicable.
+Skills Overview: Highlights of my technical expertise in various tools and programming languages.
+Contact Form: A convenient way to get in touch with me directly from the website.
+Smooth Navigation: Easy-to-use and visually appealing interface.
+🛠️ Technologies Used
+Frontend: React, Vite, CSS/SCSS, JavaScript
+Hosting: Vercel
+🔗 Live Demo
+Check out the live portfolio here:
+https://kingshuk-hazra-portfolio.vercel.app/
 
-Overview
-
-Features
-
-Tech Stack
-
-Getting Started
-
-Deployment
-
-Contributing
-
-License
-
-Overview
-
-Kingshuk's Portfolio is a responsive and visually appealing website showcasing skills, projects, and professional experience. It serves as a personal branding tool for Kingshuk, highlighting achievements and capabilities.
-
-Features
-
-Home Section: Brief introduction and links to social profiles.
-
-About Section: Overview of skills, experience, and education.
-
-Projects Section: Highlighted projects with descriptions, tech stacks, and links.
-
-Contact Section: A form for visitors to send messages and connect.
-
-Responsive Design: Optimized for desktops, tablets, and mobile devices.
-
-Tech Stack
-
-Frontend: React.js with Next.js for SSR and optimized performance.
-
-Styling: Tailwind CSS for a modern and responsive design.
-
-Hosting: Deployed on Vercel for seamless CI/CD.
-
-Forms: Form submission handling using [formspree.io] or [Email.js] (adjust based on implementation).
-
-Getting Started
-
-Follow these steps to set up the project locally:
+📂 How to Run Locally
+If you'd like to explore or modify the project, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/your-username/kingshuk-portfolio.git
-cd kingshuk-portfolio
+bash
+Copy
+Edit
+git clone https://github.com/kingshuk5/Kingshuk-Portfolio.git  
+Navigate to the project directory:
 
+bash
+Copy
+Edit
+cd <your-repo-name>  
 Install dependencies:
 
-npm install
-
+bash
+Copy
+Edit
+npm install  
 Run the development server:
 
-npm run dev
+bash
+Copy
+Edit
+npm run dev  
+Open your browser and navigate to:
 
-Open http://localhost:5173 to view it in your browser.
+arduino
+Copy
+Edit
+http://localhost:5173
+🤝 Contributions
+Feel free to fork the repository and submit pull requests for any suggestions or improvements.
 
-Build for production:
+📫 Contact
+If you'd like to collaborate or just say hi, reach out to me!
 
-npm run build
-
-Then start the production server:
-
-npm start
-
-Deployment
-
-This project is deployed on Vercel. To deploy your own version:
-
-Push the code to a GitHub repository.
-
-Connect the repository to Vercel.
-
-Configure any necessary environment variables (if applicable).
-
-Deploy the project and access it at the assigned Vercel URL.
-
-Contributing
-
-Contributions are welcome! To contribute:
-
-Fork the repository.
-
-Create a feature branch:
-
-git checkout -b feature/your-feature-name
-
-Commit your changes:
-
-git commit -m "Add your message here"
-
-Push to the branch:
-
-git push origin feature/your-feature-name
-
-Open a pull request.
-
-License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
-
-If you encounter any issues or have suggestions, please create an issue in the repository or contact Kingshuk directly through the portfolio's contact form.
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Email: kingshukhazra5@gmail.com
+LinkedIn: Kingshuk Hazra
+GitHub: kingshuk5
+📝 License
+This project is licensed under the MIT License.
