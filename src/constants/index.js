@@ -36,6 +36,7 @@ import {
   import times from '../assets/times.png';
   import recruitment from '../assets/recruitment.png';
   import criceurekaapp from '../assets/criceurekaapp.jpg';
+  import thtkhabri from  '../assets/thtkhabri.jpg';
 
 
 
@@ -264,6 +265,27 @@ import {
     },
   ];
   const Androidprojects = [
+    {
+      name: "THT Khabri App",
+      description:
+        "Contributed in developing the THT Khabri app using Flutter, Node.js, and MongoDB, enabling seamless cross-platform access. Demonstrated expertise in full-stack development and scalable solutions.",
+      tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: thtkhabri,
+      source_code_link: "https://github.com/",
+    },
     {
       name: "NGO Eureka App",
       description:
