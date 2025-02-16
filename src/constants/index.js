@@ -37,6 +37,7 @@ import {
   import recruitment from '../assets/recruitment.png';
   import criceurekaapp from '../assets/criceurekaapp.jpg';
   import thtkhabri from  '../assets/thtkhabri.jpg';
+  import devopod from '../assets/company/devopod.png';
 
 
 
@@ -154,7 +155,7 @@ import {
       ],
     },
     {
-      title: "Full stack Web/App Developer",
+      title: "Fullstack Web/App Developer",
       company_name: "The HIT Times",
       icon: hittimes,
       iconBg: "black",
@@ -164,6 +165,19 @@ import {
         "Collaborated with a team to design and build an interactive website along with an admin portal for the Club, leveraging Next.js,MongoDB,React.js and Tailwind CSS.",
         "Created a comprehensive user registration form with seven sections and over 150 fields, enabling seamless registration for events and workshops. This system has successfully handled registrations for over 700 users, with real-time data stored in CSV format.",
         "Working closely with cross-functional teams—including designers, developers, and other team members—to produce high-quality content for the college's official E-Media and Print-Media Club, The HIT Times.",
+      ],
+    },
+    {
+      title: "Fullstack Software Developer",
+      company_name: "Devopod",
+      icon: devopod ,
+      iconBg: "black",
+      date: "Jan 2025 - Present",
+      points: [
+        "I have received and reviewed the offer for the Software Developer Intern position at Devopod Private Limited.The internship lasts for 5 months, starting on January 18, 2025, with a monthly stipend.",
+        "Developing and maintaining Android applications using Flutter, MongoDB, Node.js and related technologies to deliver robust and scalable solutions.",
+        "Working closely with cross-functional teams—including designers, developers, HRs and other team members at Devopod",
+        "I look forward to the hands-on experience, particularly in developing applications and understanding backend and full stack applications within an agile environment."
       ],
     },
   ];
